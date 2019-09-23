@@ -30,4 +30,4 @@ def print_user_repo_commits(github_user_id):
 
 
 if __name__ == '__main__':
-    print_user_repo_commits("sahlawat11")
+    print_user_repo_commits("richkempinski")

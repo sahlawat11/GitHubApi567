@@ -4,4 +4,4 @@ python:
 install:
   - pip install -r requirements.txt
 # command to run tests
-script: python3 /home/travis/build/sahlawat11/GitHubApi567/GitHub.py
+script: python3 /home/travis/build/sahlawat11/GitHubApi567/GitHub-test.py
