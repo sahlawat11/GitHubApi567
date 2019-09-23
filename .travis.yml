@@ -2,6 +2,6 @@ language: python
 python:
   - "3.5"
 install:
-  - pip install requests
+  - pip install -r requirements.txt
 # command to run tests
 script: python3 /home/travis/build/sahlawat11/GitHubApi567/GitHub.py
