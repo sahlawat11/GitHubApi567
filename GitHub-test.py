@@ -4,6 +4,10 @@ import unittest
 from GitHub import get_github_repos_commits
 
 
+# ADD MORE TESTS
+# FIX TRAVIS CI
+
+
 class GitHubTests(unittest.TestCase):
 
     MY_REPO_ID = "richkempinski"
