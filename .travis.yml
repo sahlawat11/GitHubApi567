@@ -4,4 +4,4 @@ python:
 install:
   - pip install requests
 # command to run tests
-script: python3 /home/travis/build/sahlawat11/GitHub.py
+script: python3 /home/travis/build/sahlawat11/GitHubApi567/GitHub.py
