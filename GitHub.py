@@ -16,7 +16,6 @@ def get_github_repos_commits(github_user_id):
     for repo in parsed_user_repos:
         repo_name = repo["name"]
         repo_commits_raw = get_git_repo_commits(github_user_id, repo_name)
-        print(repo_commits_raw.text)
         repo_commits = json.loads(repo_commits_raw.text)
         repositories[repo_name] = len(repo_commits)
 
@@ -38,4 +37,4 @@ def get_git_repo_commits(github_user_id, repo_name):
     return repo_commits
 
 if __name__ == '__main__':
-    get_github_repos_commits("richkempinski")
+    print_user_repo_commits("richkempinski")
