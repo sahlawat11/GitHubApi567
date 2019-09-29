@@ -30,7 +30,7 @@ class GitHubTests(unittest.TestCase):
         repo_commits = mock_get_git_repos_commits()
 
         self.assertEqual(len(repo_commits), 30)
-        self.assertEqual(repo_commits[1].get("node_id"), "DY6Q29tbWl0Mjg3NjU3OTE6M2E5MDc5MDFhZGQ5YTBkMzhlNmExOTkyNTFkZDNkZjBiMTczZWY2Zg==")
+        self.assertEqual(repo_commits[1].get("node_id"), "MDY6Q29tbWl0Mjg3NjU3OTE6M2E5MDc5MDFhZGQ5YTBkMzhlNmExOTkyNTFkZDNkZjBiMTczZWY2Zg==")
 
 
 if __name__ == "__main__":
