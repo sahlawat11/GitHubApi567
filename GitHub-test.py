@@ -8,7 +8,6 @@ class GitHubTests(unittest.TestCase):
 
     MY_REPO_ID = "richkempinski"
 
-
     def test_request_response_with_patcher(self):
         """Mocking using a patcher"""
         mock_get_git_repos_patcher = patch('GitHub.get_git_repos')
